@@ -1,0 +1,83 @@
+/*** FORM ***/
+/* Comment section
+============================= */
+.post-comments {
+    width: 80%;
+    margin: 10rem 0 0 auto;
+    padding-left: 7rem;
+}
+.post-comments .section-title {
+    font-variant: small-caps;
+}
+
+/* Basic form
+============================= */
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    margin: 0;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 0.75rem;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Validation States */
+input:required, textarea:required {
+    border: 2px solid #000;
+}
+
+input:invalid, textarea:invalid {
+    border: 2px solid red;
+}
+
+input:valid, textarea:valid {
+    border: 2px solid green;
+}
+
+/* Fieldset styling */
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: none;
+    padding: 0 0 2rem;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
