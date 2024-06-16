@@ -1,0 +1,11 @@
+// Define the color variable
+$text-color: #3D3D3D;
+
+// Assign the color variable to the body and p elements
+body {
+  color: $text-color;
+}
+
+p {
+  color: $text-color;
+}
