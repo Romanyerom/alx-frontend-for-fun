@@ -1,0 +1,14 @@
+/* Task: Assign text color to body and p tags using a variable */
+
+/* Define the color variable */
+$main-text-color: #3D3D3D;
+
+/* Apply the color to the body and p tags */
+body {
+  color: $main-text-color;
+}
+
+p {
+  color: $main-text-color;
+}
+
