@@ -1,0 +1,13 @@
+/* Task: No margin or padding in body tags, 10px margin for p tags inside body */
+
+/* Remove margin and padding from the body tag */
+body {
+  margin: 0px;
+  padding: 0px;
+
+  /* Add 10px margin to all p tags inside the body */
+  p {
+    margin: 10px;
+  }
+}
+

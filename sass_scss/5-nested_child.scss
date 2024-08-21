@@ -1,0 +1,12 @@
+/* Task: Assign text colors with nested declarations */
+
+/* Apply text color to all elements inside body */
+body {
+  color: #3D3D3D;
+
+  /* Apply text color to the first child elements with class .red inside body */
+  > .red {
+    color: #FF0000;
+  }
+}
+
